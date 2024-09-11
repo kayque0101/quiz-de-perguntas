@@ -1,0 +1,49 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: radial-gradient(
+        ellipse,
+        #3b0494,
+        #664ae7
+    ); 
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; /* Altura total da viewport */
+    color:#ffffff;
+}
+
+#containerQuiz {
+    background: #ffffff; /* Cor de fundo branca para o container */
+    border-radius: 12px; /* Bordas arredondadas para o container */
+    padding: 20px; /* Espaço interno do container */
+    max-width: 800px; /* Largura máxima do container */
+    width: 100%; /* Ajusta a largura do container ao tamanho do viewport */
+    box-shadow: 0 4px 8px rgb(240, 237, 237); /* Adiciona uma sombra suave ao container */
+    margin: 20px; /* Espaço ao redor do container */
+}
+
+button {
+    background-color: #80b0f0;
+    color: rgb(238, 231, 231); /* Cor do texto do botão */
+    border: none; /* Remove a borda padrão do botão */
+    padding: 10px 20px; /* Espaço interno do botão */
+    border-radius: 12px; /* Bordas arredondadas para o botão */
+    font-size: 16px; /* Tamanho da fonte do botão */
+    cursor: pointer; /* Muda o cursor para indicar que é clicável */
+    transition: background-color 0.3s; /* Transição suave ao mudar a cor do fundo */
+}
+
+button:hover {
+    background-color: #6090d0; /* Cor de fundo quando o mouse passa sobre o botão */
+}
+
+.pergunta {
+    background: #f9f9f9; /* Cor de fundo clara para as perguntas */
+    border: 1px solid #ddd; /* Borda sutil ao redor das perguntas */
+    border-radius: 8px; /* Bordas arredondadas para as perguntas */
+    padding: 15px; /* Espaço interno para as perguntas */
+    margin-bottom: 15px; /* Espaço abaixo de cada pergunta */
+}

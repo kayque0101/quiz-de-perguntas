@@ -1,0 +1,42 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: radial-gradient(
+        ellipse,
+        #47eeee,
+        #44e7cc
+    ); 
+    text-align: center;
+}
+
+#containerQuiz {
+    background: #10f1d3; /* Cor de fundo branca para o container */
+    border-radius: 12px; /* Bordas arredondadas para o container */
+    padding: 20px; /* Espaço interno do container */
+    max-width: 800px; /* Largura máxima do container */
+    margin: 20px auto; /* Centraliza o container horizontalmente */
+}
+
+.pergunta {
+    background: #2bcccc; /* Cor de fundo clara para as perguntas */
+    border: 1px solid #028697; /* Borda sutil ao redor das perguntas */
+    border-radius: 8px; /* Bordas arredondadas para as perguntas */
+    padding: 15px; /* Espaço interno para as perguntas */
+    margin-bottom: 15px; /* Espaço abaixo de cada pergunta */
+}
+
+button {
+    background-color: #80e8f0;
+    color: rgb(0, 0, 0); /* Cor do texto do botão */
+    border: none; /* Remove a borda padrão do botão */
+    padding: 10px 20px; /* Espaço interno do botão */
+    border-radius: 12px; /* Bordas arredondadas para o botão */
+    font-size: 16px; /* Tamanho da fonte do botão */
+    cursor: pointer; /* Muda o cursor para indicar que é clicável */
+    transition: background-color 0.3s; /* Transição suave ao mudar a cor do fundo */
+}
+
+button:hover {
+    background-color: #1d5d8d; /* Cor de fundo quando o mouse passa sobre o botão */
+}
